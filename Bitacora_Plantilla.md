@@ -1,55 +1,49 @@
-# **`Bitácora de (Nombre del Proyecto)`**
+# **`Bitácora de (Caja de Fiesta)`**
 
 `Tecnología de los Sistemas de Información - Seminario Avanzado`  
 `Ciclo Lectivo 2025`
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
-
+* `Santino Capelli`  
+* `Bruno Siskind`
 
 ---
-
 
 ## **`Semana 1`**
 
-**`Fecha:`**
+`Fecha:`  
+`Actividades Realizadas:`
 
-**`Actividades Realizadas:`**
+* `Completar el README`  
+* `Entregar El README`
 
-- `Actividad 1`  
-- `Actividad 2`
+`Dificultades:`
 
-**`Dificultades:`**
+* `Tardamos tiempo en poder entregar el README porque no sabíamos dónde entregarlo`  
+* `Tuvimos problemas con algunos participantes enfermandose lo que retraso un poco nuestro trabajo`
 
-- `Dificultad 1`  
-- `Dificultad 2`
+`Próximos Pasos:`
 
-**`Próximos Pasos:`**
-
-- `Próximo paso 1`  
-- `Próximo paso 2`
-
+* `Terminar Los TP´s`  
+* `Hacer la Simulación de tinkercad`
 
 ---
 
-
 ## **`Semana 2`**
 
-**`Fecha:`**
+`Fecha:`  
+`Actividades Realizadas:`
 
-**`Actividades Realizadas:`**
+* `Terminar los TP´s`  
+* `Hacer la Simulación de tinkercad`
 
-- `Actividad 1`  
-- `Actividad 2`
+`Dificultades:`
 
-**`Dificultades:`**
+* `Estábamos un poco atrasados con los TP´s asi que tuvimos algunos problemas con el tiempo de entrega pero pudimos hacerlo`  
+* `Tambíen nos costó un poco entender como funcionan los componentes en tinkercad pero lo pudimos hacer.`
 
-- `Dificultad 1`  
-- `Dificultad 2`
+`Próximos Pasos:`
 
-**`Próximos Pasos:`**
-
-- `Próximo paso 1`  
-- `Próximo paso 2`
+* `Poner el código de tinkercad y los TP´s en el repositorio`  
+* `Entregar el trabajo`

@@ -1,0 +1,47 @@
+Nombre del componente: (Photoreceptor Arduino)
+
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+El Photoreceptor Arduino es un sensor y su función principal es detectar la cantidad de luz que hay en el ambiente. A mayor iluminación, su resistencia eléctrica disminuye y cuando hay menos luz, su resistencia aumenta. 
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+El  photoreceptor usa una señal anañógica
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+El componente puede entregar o recibir un rango de valores de 0 a 1023
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+El photoresistor usa un ground para que la energía fluya por el circuito. también tiene conexión al 5v para alimentarlo. Por último, está conectado a un pin analógico, esto es para que el Arduino pueda recibir datos analógicos y no 1 y 0.
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+usa un pin analogico para entregar al arduino una resistencia variable basado en el nivel de luz
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+
+
+¿Cuál es el principio de funcionamiento del componente?
+El photoreceptor cambia su resistencia según la cantidad de luz que recibe, y el Arduino interpreta ese cambio como un valor de brillo.
+
+
+¿Utiliza alguna librería particular para programarlo?
+El componente no usa ninguna librería específica para programar
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+Se interpreta como un número entre 0 y 1023 y se puede indicar un mínimo valor para activar una función como mover un motor.
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+Al usar un photoreceptor Arduino es importante no aplicar más de 5V al circuito y siempre conectarlo junto a una resistencia en serie  para no aplicar más tensión de lo que puede contener. También se deben mantener las conexiones firmes y evitar exponer el sensor a fuentes de luz o calor muy intensas
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Se puede verificar leyendo sus valores con analogRead() y observando si cambian al variar la luz. Si lo hacen, el sensor está funcionando bien.  (chequea este por si acaso)
+
+Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/jIJgl7DF1Yr-proyecto-hardware-avancado-los-tps/editel?sharecode=ZeaTs7Tr8G98Ylh_ROuA2D_pVYU_ctZlRaTAttzJsxs 
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+En la simulación espero obtener valores analógicos variables entre 0 y 1023, dependiendo de la cantidad de luz.
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+El photoreceptor puede fallar si se quema por exceso de corriente o si se desconecta.Se puede detectar un fallo si el Arduino siempre muestra el mismo valor o si las lecturas no cambian al variar la luz.
+
+

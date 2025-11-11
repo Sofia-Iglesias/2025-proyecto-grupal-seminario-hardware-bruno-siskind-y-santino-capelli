@@ -1,0 +1,71 @@
+Nombre del componente: (Micrófono)
+
+
+
+
+
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+Actuador, y su función principal es transformar señales eléctricas en ondas sonoras
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Usa una señal Anologico
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+El Micrófono puede entregar o recibir  un rango de 0-1023 en la lectura analógica pero en este caso solo está buscando un sonido de mayor valor a 500
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+VCC:  Proporciona la alimentación eléctrica necesaria para que el componente funcione
+GND: Cierra el circuito eléctrico al conectar el negativo o tierra
+OUT: Envía o recibe la señal de datos.
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Usamos un pin anologico porque queriamos tener un manera controlar cuan fuerte tiene que ser el sonido para activar la caja
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+Todo los pines del micrófono están conectados directamente al arduino sin resistencias
+
+
+
+¿Cuál es el principio de funcionamiento del componente?
+El principio de funcionamiento de un micrófono es que convierte ondas eléctricas a ondas sonoras
+
+
+¿Utiliza alguna librería particular para programarlo?
+No
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+El sonido está detectado como un valor entre 0 y 1023 y si el valor del sonido es mayor a un valor predeterminado como por ejemplo 500 activa cualquier función o componente que le digas
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+
+ Las limitaciones o precauciones que hay que tener en cuenta tienen que ver con tipo de alimentación, voltaje y corriente, interferencias y ruido,condiciones ambientales y Polaridad y tipo de entrada
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+el código lo saque y edite de un video en que funcionaba pero en tinkercad el micrófono  no existe como componente.  
+
+
+Simular en Tinkercad e incluir el link de la simulación. 
+no hay simulation para mostrar pero el código no dio errores.
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+Si todo funciona bien el componente va a detectar un sonido fuerte que va funcionar como unas de las entradas para activar la Caja Fiestas.
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+            El componente podría fallar si, si el componente está puesto en un modo muy sensible puede detectar sonidos bajas o ambientales y activaría la caja sin querer.
+

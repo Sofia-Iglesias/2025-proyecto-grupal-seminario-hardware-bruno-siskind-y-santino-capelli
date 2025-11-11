@@ -1,0 +1,43 @@
+
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+El motor DC es un actuador, funciona mediante recibiendo corriente eléctrica y transformándola en energía cinética
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Utiliza una señal digital
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+El rango de valores que puede recibir es de 3V a 12V y no entrega ningún valor
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+El motor está conectado a un puente H para controlar la dirección y eso esta conectado al pin 12 para un dirección y el pin 8 para el otro.
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Pines digitales, es 1 o 0 para una dirección o la otra.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+¿Cuál es el principio de funcionamiento del componente?
+El Motor DC transforma la energía eléctrica en movimiento giratorio mediante el efecto del campo magnético que actúa sobre sus bobinas.
+
+¿Utiliza alguna librería particular para programarlo?
+El motor DC no usa ninguna librería particular para programarlo
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+toma la señal del puente H que toma señal del arduino y se mueve en esa dirección. 
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+Las precauciones que hay que tener son, no sobrecargarlo y no conectarlo directo al arduino ya que esto podría causar sobrecargado del arduino lo que puede causar fuego o una explosion
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Para probarlo se podría conectar el motor a una fuente de 5-12V y observar si gira bien.
+
+
+Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/h1NfzjimQpH-copy-of-proyecto-hardware-avancado/editel?sharecode=f1lINl6fuuN4jCRTJWVE7hm9X_qMM0fraEH-fo4tT4w 
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+En la simulación si el motor funciona correctamente se debería ver el eje girando o un indicador de velocidad que se puede cambiar en el código para mostrar que el Arduino envía correctamente la señal y que el motor responde al control de velocidad.
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+El motor puede fallar si se quema por exceso de voltaje o corriente o si se daña el transistor o driver que lo controla, en el código se puede notar un fallo si el motor no gira o no responde a los cambios de velocidad.

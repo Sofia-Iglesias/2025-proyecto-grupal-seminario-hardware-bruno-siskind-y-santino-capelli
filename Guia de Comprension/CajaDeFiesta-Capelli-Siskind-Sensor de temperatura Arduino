@@ -1,0 +1,46 @@
+Nombre del componente: (Sensor de temperatura Arduino)
+
+
+
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+Es un sensor, y su función principal es medir la temperatura del ambiente o de un objeto y convertir esa información en una señal eléctrica que el Arduino puede leer.
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+usa un tipo de señal analógica 
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+puede recibir un rango de valores de 0 a 1023
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+            el sensor está conectado a un pin analógico, esto es para que el Arduino pueda recibir datos analógicos.
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+El sensor de temperatura usa un ground para que la energía fluya por el circuito. también tiene conexión al 3,3v para alimentarlo. Por último, está conectado a un pin analógico, esto es para que el Arduino pueda recibir datos analógicos y no 1 y 0.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+¿Cuál es el principio de funcionamiento del componente?
+El sensor de temperatura Arduino funciona midiendo los cambios de voltaje que se producen dentro de un material semiconductor cuando varía la temperatura.
+
+¿Utiliza alguna librería particular para programarlo?
+depende de el modelo
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+El sensor mide la temperatura como valor y lo guarda se puede hacer que si la temperatura llega una valor específica o un valor mínima puede accionar en una función como prender motores
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+Las limitaciones o precauciones que hay que tener en cuenta son, de temperatura, osea su maxima y minima temperatura que pueda detectar así no se rompe (-55 grados a 155 grados) y límites de voltaje
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+lo verificaría probando con diferentes temperaturas a ver si los valores que da son correctos y probar tambien para que no explote o no funcione por mucho o poco voltaje
+
+
+
+Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/jIJgl7DF1Yr-proyecto-hardware-avancado-los-tps/editel?sharecode=ZeaTs7Tr8G98Ylh_ROuA2D_pVYU_ctZlRaTAttzJsxs 
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+Espero obtener que el circuito funcione y prenda la salida que está conectada, con la temperatura en la que se debería prender
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+           El sensor de temperatura podría fallar por exceso de voltaje, conexiones incorrectas, osea que los pines no estén bien puestos, o que el sensor se haya dañado, también puede ser si las lecturas de valores son siempre iguales, o código sin coherencia.

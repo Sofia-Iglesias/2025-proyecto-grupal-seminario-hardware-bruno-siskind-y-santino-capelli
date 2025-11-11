@@ -21,7 +21,7 @@ Nuestra idea para este proyecto es una caja (más o menos de tamaño de caja de 
 * Sensor Temperatura Arduino  
 * Photoreceptor Arduino  
 * Motor DC  
-* Strip Neopixel  
+* Led RGB  
 * Boton Arduino  
 * Cables  
 * Bocina AC  

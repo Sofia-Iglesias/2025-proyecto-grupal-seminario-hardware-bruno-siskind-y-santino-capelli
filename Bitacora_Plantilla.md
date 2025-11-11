@@ -12,7 +12,7 @@
 
 ## **`Semana 1`**
 
-`Fecha:`  
+`Fecha: 4/11`  
 `Actividades Realizadas:`
 
 * `Completar el README`  
@@ -32,7 +32,7 @@
 
 ## **`Semana 2`**
 
-`Fecha:`  
+`Fecha: 11/11`  
 `Actividades Realizadas:`
 
 * `Terminar los TP´s`  

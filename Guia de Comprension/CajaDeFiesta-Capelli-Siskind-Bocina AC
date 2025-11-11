@@ -1,0 +1,47 @@
+Nombre del componente: (Bocina AC)
+
+
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+La Bocina AC es un actuador y su función principal es convertir señales eléctricas en sonido
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Usa señal digital
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+puede recibir un range de 0 a 5 volts pero no entrega ningún valor
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+El buzzer AC tiene un pin de ground para que la energía del arduino pueda fluir por el buzzer. También tiene un pin conectado a un pin digital en el arduino esto es para alimentar y controlar al buzzer.
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Use un Digital pin porque el buzzer se puede controlar en el código con “tone()”
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+¿Cuál es el principio de funcionamiento del componente?
+La Bocina AC transforma la energía eléctrica en sonido haciendo vibrar una membrana mediante un electroimán cuando recibe una señal del Arduino.
+
+¿Utiliza alguna librería particular para programarlo?
+No necesita librerías particulares para programar
+
+
+
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+El arduino manda un valor en Mhz usando tone() y el buzzer lo toca o lo toca lo más cerca posible que puede ese buzzer
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+ Las limitaciones a tomar son, no aplicar más de 5V directamente si está conectada al Arduino, si la bocina requiere más corriente o voltaje, usar un transistor, verificar la polaridad y conexiones para evitar cortocircuitos.
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+           Para comprobar que la Bocina AC funciona, se conecta al Arduino y se carga un código que genere un tono con el comando tone(). Si emite un sonido claro, está en buen estado. Si no suena, se deben revisar las conexiones o el pin usado antes de incorporar al proyecto. 
+
+Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/jIJgl7DF1Yr-proyecto-hardware-avancado-los-tps/editel 
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+En la simulación si la bocina AC funciona correctamente, espero que emita un sonido o que el simulador produzca un sonido
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+El componente puede fallar si se conecta de forma incorrecta, si recibe más voltaje del maximo o si el electroimán interno se daña. Para detectar un mal funcionamiento, se puede observar si la bocina no emite ningún sonido al ejecutar el código, si el sonido es muy débil o distorsionado, o si el Arduino no envía señal al pin correspondiente. En ese caso, conviene revisar las conexiones, probar otro pin o medir el voltaje con un multímetro para asegurarse de que la señal llegue correctamente.
+

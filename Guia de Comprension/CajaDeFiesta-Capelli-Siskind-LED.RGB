@@ -1,0 +1,43 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+El led RGB es un actuador, emite luz de cualquier color que se puede producir con diferentes valores de rojo, verde, y azul.
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+Puede usar señal análogico para controlar los valores de cada color o puede usar digital para hacer un rango de colores más basico
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+El led tiene valores desde 0 hasta 255 para cada color R G y B
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+El led tiene 3 conexiones digitales para controlar cada color y alimentar al led. También tiene una conexión al ground para que la energía tenga un lugar para completar el circuito. 
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+Use tres pines digitales para cambiar el color del led en un ciclo más básico para que coincida con la duración de la música.
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+
+
+
+
+¿Cuál es el principio de funcionamiento del componente?
+Emitir luz de diferentes colores.
+
+¿Utiliza alguna librería particular para programarlo?
+No usa una librería particular
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+Es solo un activación binaria 1 o 0  con cada color teniendo su propio activation
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+Si no se conecta las resistencias se puede quemar el led
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+Lo simulé en Tinkercad
+
+Simular en Tinkercad e incluir el link de la simulación. 
+https://www.tinkercad.com/things/h1NfzjimQpH-copy-of-proyecto-hardware-avancado/editel?sharecode=f1lINl6fuuN4jCRTJWVE7hm9X_qMM0fraEH-fo4tT4w 
+
+En caso de aplicar, ¿qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+Una luz linda para mirar mientras las música se toca
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+
+	Cualquier de los 3 leds podría fallar y el ciclo de colores va a salir mal. 
